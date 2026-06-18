@@ -86,6 +86,11 @@ body {
     background: rgba(30, 30, 60, 0.95);
 }
 
+/* Submenu visible when expanded or opened */
+.sidebar-menu .main-menu>li.expanded>ul {
+    display: block;
+}
+
 /* Card tweaks for dark theme */
 .box2 {
     background-color: rgba(255, 255, 255, 0.95);
