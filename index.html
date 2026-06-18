@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="koucpy" />
+    <title>MyNav - 综合网址导航</title>
+    <meta name="keywords" content="网址导航,工具导航,效率工具,学习资源,综合导航">
+    <meta name="description" content="个人综合网址导航，收录常用效率工具、开发资源、社区资讯和学习平台。">
+    <script>
+    if (navigator.appName == "Netscape") {
+        var language = navigator.language;
+    } else {
+        var language = navigator.browserLanguage;
+    }
+    if (language.indexOf("en") > -1) {
+        document.location.href = "en/index.html";
+    } else if (language.indexOf("zh") > -1) {
+        document.location.href = "cn/index.html";
+    } else {
+        document.location.href = "en/index.html";
+    }
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
