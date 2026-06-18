@@ -1327,13 +1327,13 @@
             e.preventDefault();
             var $sub = $(this).next("ul");
             var $parent = $(this).parent();
-            if ($parent.hasClass("expanded")) {
+            if ($parent.hasClass("opened")) {
                 $sub.slideUp(200, function() {
-                    $parent.removeClass("expanded");
+                    $parent.removeClass("opened");
                 });
             } else {
                 $sub.slideDown(200, function() {
-                    $parent.addClass("expanded");
+                    $parent.addClass("opened");
                 });
             }
         });
