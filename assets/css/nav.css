@@ -65,3 +65,35 @@
 .img-circle {
     padding: 7px 0;
 }
+
+/* === Page Background === */
+body {
+    background: linear-gradient(135deg, #0c0c1d 0%, #1a1a3e 30%, #0f2027 60%, #0c0c1d 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* Main content semi-transparent background */
+.main-content {
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 8px;
+    margin: 15px;
+    padding: 20px;
+}
+
+/* Sidebar transparent background */
+.sidebar-menu {
+    background: rgba(30, 30, 60, 0.95);
+}
+
+/* Card tweaks for dark theme */
+.box2 {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(228, 236, 243, 0.8);
+}
+
+/* Navbar adjustment */
+.navbar {
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid #eee;
+}
